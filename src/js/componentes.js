@@ -1,5 +1,6 @@
 
 import '../css/componentes.css';
+// import webpacklogo from '../assets/img/webpack-logo.png'; // esta podria ser otra forma de importar 
 
 export const saludar = (nombre) => {
     console.log('creando etiqueta h1');
@@ -8,4 +9,9 @@ export const saludar = (nombre) => {
     h1.innerText = `hola, ${nombre}`;
 
     document.body.append(h1);
+
+    //img
+    const img = document.createElement('img');
+    img.src = webpacklogo;
+    document.body.append(img);
 }

@@ -1,4 +1,9 @@
 html, body{
     margin:0;
-    background-color: rgb(8, 36, 5);
+    background-color: rgb(210, 224, 208);
+}
+
+img{
+    width: 150px;
+    
 }
