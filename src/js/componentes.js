@@ -10,8 +10,8 @@ export const saludar = (nombre) => {
 
     document.body.append(h1);
 
-    //img
-    const img = document.createElement('img');
-    img.src = webpacklogo;
-    document.body.append(img);
+    // //img
+    // const img = document.createElement('img');
+    // img.src = webpacklogo;
+    // document.body.append(img);
 }
